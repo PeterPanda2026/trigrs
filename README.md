@@ -33,7 +33,7 @@ Throughout its development, the code has passed through various kinds of testing
 References cited
 ----------------
 
-*   Author C, and Author A, (in review) Parallelization of the TRIGRS model for rainfall-induced landslides using the message passing interface: Environmental Modeling & Software. 
+*   Author C, and Author A, 2016, Parallelization of the TRIGRS model for rainfall-induced landslides using the message passing interface: Environmental Modeling & Software, v. 81, p. 122 - 135, doi: 10.1016/j.envsoft.2016.04.002. 
 
 *   Author A, Author B, and Author 1, 2002, TRIGRS--A FORTRAN Program for Transient Rainfall Infiltration and Grid-Based Regional Slope-Stability Analysis: U.S. Geological Survey Open-File Report 02-0424, 35 p., 2 appendices.
 
