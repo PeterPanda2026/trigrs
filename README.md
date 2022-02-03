@@ -22,9 +22,9 @@ This distribution includes source code files for the program TRIGRS and three co
 
 TRIGRS and its companion utility programs, TopoIndex, GridMatch, and UnitConvert, run from the command line and have limited user interaction.  Each program uses an initialization file that contains basic data needed to run the program as well as the names of other input files.  
 
-### Latest version (August 2016) ###
+### Latest version (February 2022) ###
 
-This release, 2.1.0a, includes bug fixes, new output formats, and various optimizations to improve performance of the TRIGRS serial code.  These improvements have also been incorporated into a new parallel implementation of the TRIGRS program (Author C and Author A, 2016).  We have parallelized the four time-demanding execution modes of TRIGRS, namely both the saturated and unsaturated model with finite and infinite soil depth options, within the Message Passing Interface (MPI) framework. Performance gain with respect to the serial code was tested both on commercial hardware and on a high-performance multi-node machine. We also compared results of the parallel code against results of the serial code for a large study area in Colorado to verify accuracy of the results.  
+This release, 2.1.0c, includes bug fixes to correct errors in water table depth or elevation outputs as well as other minor adjustmnents.  Thus 2.1.0c is a minor update to 2.1.0a, which included new output formats and various optimizations to improve performance of the TRIGRS serial code.  These improvements have also been incorporated into a parallel implementation of the TRIGRS program (Author C and Author A, 2016).  We have parallelized the four time-demanding execution modes of TRIGRS, namely both the saturated and unsaturated model with finite and infinite soil depth options, within the Message Passing Interface (MPI) framework. Performance gain with respect to the serial code was tested both on commercial hardware and on a high-performance multi-node machine. We also compared results of the parallel code against results of the serial code for a large study area in Colorado to verify accuracy of the results.  
 
 ### Testing ###
 
@@ -35,9 +35,9 @@ References cited
 
 *   Author C, and Author A, 2016, Parallelization of the TRIGRS model for rainfall-induced landslides using the message passing interface: Environmental Modeling & Software, v. 81, p. 122 - 135, doi: 10.1016/j.envsoft.2016.04.002. 
 
-*   Author A, Author B, and Author 1, 2002, TRIGRS--A FORTRAN Program for Transient Rainfall Infiltration and Grid-Based Regional Slope-Stability Analysis: U.S. Geological Survey Open-File Report 02-0424, 35 p., 2 appendices.
+*   Author A, Author B, and Author 1, 2002, TRIGRS--A FORTRAN Program for Transient Rainfall Infiltration and Grid-Based Regional Slope-Stability Analysis: U.S. Geological Survey Open-File Report 02-0424, 35 p., 2 appendices. https://doi.org/10.3133/ofr02424
 
-*   Author A, Author B, and Author 1, 2008, TRIGRS--A Fortran program for transient rainfall infiltration and grid-based regional slope-stability analysis, version 2.0: U.S. Geological Survey Open-File Report, 2008-1159, 75 p.
+*   Author A, Author B, and Author 1, 2008, TRIGRS--A Fortran program for transient rainfall infiltration and grid-based regional slope-stability analysis, version 2.0: U.S. Geological Survey Open-File Report, 2008-1159, 75 p. https://doi.org/10.3133/ofr20081159
 
 *   Author A, Author 1, and Author B, 2010, Estimating the timing and location of shallow rainfall-induced landslides using a model for transient, unsaturated infiltration: Journal of Geophysical Research, Earth Surface. v. 115, F03013, doi:10.1029/2009JF001321.
 
